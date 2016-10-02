@@ -1,0 +1,36 @@
+
+ /*Floats */
+
+.float-left{
+  float: left;
+  margin: 0 10px 10px 0;
+}
+
+.float-right{
+  float: right;
+  margin: 0 0 10px 10px;
+}
+
+
+
+ /*Clear */
+
+.clear{
+  clear: both;
+}
+
+
+
+ /*Nicks Clearfix Hack
+   http://nicolasgallagher.com/micro-clearfix-hack/
+*/
+
+.cf:before,
+.cf:after {
+    content: " ";
+    display: table;
+}
+
+.cf:after {
+    clear: both;
+}
